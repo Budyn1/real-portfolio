@@ -1,0 +1,112 @@
+.name {
+  color: white;
+  font-size: 72px;
+  letter-spacing: 16px;
+  word-spacing: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  margin: 50px;
+}
+
+.mainCon {
+  width: 100vw;
+  height: 60vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.button-getinTouch {
+  width: 160px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: rgba(255, 30, 30, 0.6);
+  border: 0px;
+  color: white;
+  filter: brightness(2);
+  margin-bottom: 50px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.button-getinTouch:hover {
+  cursor: pointer;
+  background-color: rgba(255, 30, 30, 1);
+}
+
+.VscArrowDownCon {
+animation: arrowAnimation 4s infinite;
+}
+
+.VscArrowDownCon:hover {
+  cursor: pointer;
+}
+
+@keyframes arrowAnimation {
+  0%{
+    transform: translate(0px,0px);
+  }
+  50%{
+    transform: translate(0px, 80px);
+  }
+  100%{
+    transform: translate(0px,0px);
+  }
+}
+
+@keyframes arrowAnimationSmall {
+  0%{
+    transform: translate(0px,0px);
+  }
+  50%{
+    transform: translate(0px, 50px);
+  }
+  100%{
+    transform: translate(0px,0px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .name {
+    flex-direction: column;
+  }
+
+  .VscArrowDownCon {
+    animation: arrowAnimationSmall 4s infinite;
+  }
+
+  .name {
+    font-size: 48px;
+  }
+
+  .button-getinTouch {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .name {
+    flex-direction: column;
+  }
+
+  .VscArrowDownCon {
+    animation: arrowAnimationSmall 4s infinite;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .button-getinTouch {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+  }
+}

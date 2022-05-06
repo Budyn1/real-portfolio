@@ -1,0 +1,6 @@
+.project {
+  padding: 0px;
+  display: flex;
+  margin: 0px;
+  flex-direction: column;
+}

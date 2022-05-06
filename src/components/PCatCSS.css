@@ -1,0 +1,86 @@
+.barCon {
+  width: 100vw;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  margin: 60px 0px 60px 0px;
+  color: white;
+}
+
+.bar {
+  background-color: rgba(0,0,0,0.7);
+  width: 80%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.BsArrow {
+  margin: 0px 6px 0px 24px;
+}
+
+.BsArrow:hover{
+  cursor: pointer;
+}
+
+.text {
+  font-size: 36px;
+  letter-spacing: 2px;
+  margin-left: 16px;
+}
+
+.tech {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 24px;
+}
+
+.pCI {
+  margin: 12px;
+}
+
+.tech {
+  position: relative;
+  max-height: 100%;
+}
+
+.pCpage {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgCon {
+  min-width: 50%;
+}
+
+.textCon {
+  padding: 50px 40px 50px 40px;
+  font-size: 22px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.para {
+  text-align: center;
+  width: 80%;
+  word-wrap: normal;
+  font-size: 26px;
+}
