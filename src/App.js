@@ -5,6 +5,7 @@ import { useEffect, useState, } from 'react'
 import Project from './components/project.js'
 import './scrollbarCSS.css'
 import About from './components/about.js'
+import Footer from './components/footer.js'
 
 function App() {
 
@@ -36,6 +37,7 @@ useEffect(()=> {
       <Landing display={display} nDisHandler={handlenDis} nDisState={nDis}/>
       <About />
       <Project />
+      <Footer />
     </div>
   );
 }
