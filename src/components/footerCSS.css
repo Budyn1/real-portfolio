@@ -1,6 +1,131 @@
 .footer {
   width: 100vw;
-  height: 500px;
+  height: 600px;
   margin-top: 200px;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footerCon {
+  width: 1200px;
+  height: 80%;
+  display: flex;
+}
+
+.footerInfo {
+  width: 40%;
+  height: 100%;
+}
+
+.gIT {
+  border-bottom: red 3px solid;
+  height: 60px;
+  font-size: 39px;
+  margin: 30px;
+  color: white;
+  width: 240px;
+}
+
+.place {
+  margin: 30px;
+  margin-top: 50px;
+  display: flex;
+  max-width: 100%;
+  color: white;
+  align-items: center;
+}
+
+.number {
+  margin: 30px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.number p {
+  margin: 0px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.place p {
+  margin: 0px;
+  margin-left: 20px;
+  font-size: 18px;
+
+}
+
+.icons {
+  margin-left: 30px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.dc {
+  margin-left: 10px;
+}
+
+.dc:hover {
+  cursor: pointer;
+}
+
+.git:hover {
+  cursor: pointer;
+}
+
+.footerForm {
+  height: 100%;
+  width: 60%;
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  height: 50px;
+  font-size: 22px;
+  background-color: transparent;
+  border: solid 0px #fff;
+  color: white;
+  border-bottom: red solid 3px;
+  outline: none;
+}
+
+form textarea {
+  line-height: 30px;
+  font-size: 22px;
+  background-color: transparent;
+  color: white;
+  border: 0px solid #fff;
+  border-bottom: 3px solid red;
+  display: flex;
+  outline: none;
+}
+
+form button {
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: transparent;
+  color: red;
+  border: 2px solid red;
+  border-radius: 2px;
+}
+
+form button:hover {
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.rights {
+  color: white;
 }
