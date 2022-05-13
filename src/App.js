@@ -5,9 +5,19 @@ import { useEffect, useState, } from 'react'
 import Project from './components/project.js'
 import './scrollbarCSS.css'
 import About from './components/about.js'
-import Footer from './components/footer.js'
+import {Footer} from './components/footer.js'
 
 function App() {
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+          });
+      });
+  });
 
 let wWidth = window.innerWidth
 

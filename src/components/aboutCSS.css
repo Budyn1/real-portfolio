@@ -1,9 +1,14 @@
 .aboutPage {
   width: 100vw;
-  height: 140vh;
+  height: 150vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#about {
+  height: 100% - 80px;
+  padding-top: 80px;;
 }
 
 .aboutPageCon {

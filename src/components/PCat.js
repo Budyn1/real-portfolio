@@ -7,7 +7,7 @@ const PCat = (props) => {
 
 
   return (
-    <div className="barCon">
+    <div className="barCon" id="projects">
       <div className="bar">
         <div className="title">
           <p className="text">EVE ONLINE PROJECT</p>
