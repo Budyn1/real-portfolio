@@ -2,24 +2,30 @@
   width: 100vw;
   height: 150vh;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
 }
 
 #about {
   height: 100% - 80px;
-  padding-top: 80px;;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: center;
+  max-width: 1000px;
 }
 
 .aboutPageCon {
-  width: 70%;
+  width: 80%;
   background-color: ;
   height: 60%;
   display: flex;
+  flex-direction: row;
 }
 
 .textPart {
-  width: 50%;
+  width: 40%;
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   display: flex;
@@ -76,7 +82,7 @@
 
 .subCon {
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   flex-grow: 1;
   display: flex;
   margin-top: 30px;
@@ -95,7 +101,16 @@
   padding: 20px;
 }
 
-.graphicPart {
-  width: 50%;
-  height: 100%;
+.subImg{
+  max-width: 300px;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subImg img {
+  max-width:  100%;
+  border-radius: 5px;
+  margin: 0px;
 }

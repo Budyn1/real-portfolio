@@ -1,0 +1,17 @@
+.skillCon {
+  min-width: 150px;
+  min-height: 150px;
+  border-radius: 10%;
+  background-color: rgba(0,0,0,0.9);
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 760px) {
+  .skillCon {
+    min-width: 90px;
+    min-height: 90px;
+  }
+}

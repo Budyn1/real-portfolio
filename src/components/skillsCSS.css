@@ -1,0 +1,20 @@
+.skillsCon {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skillsPage {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 500px;
+  padding-top: 200px;
+}
+
+.skillsPage h1 {
+  margin: auto;
+  color: white;
+  width: 300px;
+  text-align: center;
+  font-size: 48px;
+}

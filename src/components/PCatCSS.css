@@ -171,3 +171,13 @@
     font-size: 18px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .tech {
+    flex-direction: column;
+  }
+
+  .text {
+    text-align: center;
+  }
+}

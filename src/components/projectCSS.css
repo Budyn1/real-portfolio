@@ -3,6 +3,24 @@
   display: flex;
   margin: 0px;
   flex-direction: column;
-  height: 2000px;
+  height: auto;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px) {
+  .project {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .project {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .project {
+    height: auto;
+  }
 }

@@ -15,7 +15,7 @@ const NavBar = ({}) => {
 
 
   return (<div className="navBar">
-      <a><div>SKILLS</div></a>
+      <a href="#skill"><div>SKILLS</div></a>
       <a href="#projects"><div>PROJECTS</div></a>
       <a href="#about"><div>ABOUT</div></a>
       <a href="#contact"><div>CONTACT</div></a>

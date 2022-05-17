@@ -6,6 +6,8 @@ import Project from './components/project.js'
 import './scrollbarCSS.css'
 import About from './components/about.js'
 import {Footer} from './components/footer.js'
+import  Skills  from './components/skills.js'
+
 
 function App() {
 
@@ -46,7 +48,8 @@ useEffect(()=> {
       <Bg />
       <Landing display={display} nDisHandler={handlenDis} nDisState={nDis}/>
       <About />
-      <Project />
+      <Skills display={display}/>
+      <Project display={display}/>
       <Footer />
     </div>
   );

@@ -164,4 +164,7 @@ form button:hover {
   .footerForm {
     width: 80%;
   }
+  .footer {
+    margin-top: 350px;
+  }
 }
