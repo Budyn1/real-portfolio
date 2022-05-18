@@ -7,7 +7,7 @@ import './scrollbarCSS.css'
 import About from './components/about.js'
 import {Footer} from './components/footer.js'
 import  Skills  from './components/skills.js'
-
+import Overlay from "./components/overlay.js"
 
 function App() {
 
@@ -46,6 +46,7 @@ useEffect(()=> {
   return (
     <div className="App">
       <Bg />
+      {nDis === true ? <Overlay nDisHandler={handlenDis}/> : null}
       <Landing display={display} nDisHandler={handlenDis} nDisState={nDis}/>
       <About />
       <Skills display={display}/>
