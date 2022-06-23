@@ -1,6 +1,6 @@
 .aboutPage {
   width: 100vw;
-  height: 150vh;
+  height: auto;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -113,4 +113,57 @@
   max-width:  100%;
   border-radius: 5px;
   margin: 0px;
+}
+
+@media only screen and (max-width: 1450px) {
+  #about {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  #about {
+    width: 100%;
+  }
+  .textPart {
+    padding: 0px 20px 0px 20px;
+  }
+  .textPart h1 {
+    padding-top: 30px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .subCon {
+    flex-direction: column;
+  }
+  .aboutPage {
+    height: auto;
+  }
+  .aboutPage h1 {
+    white-space: normal;
+    height: auto;
+  }
+  .textPart p {
+    max-height: 400px;
+    height: auto;
+  }
+  .intButton {
+    margin-top: 30px;
+  }
+  .subCon {
+    align-items: center;
+  }
+  .subItem {
+    width: 80%;
+    text-align: center;
+  }
+  .subItem2 {
+    width: 80%;
+    text-align: center;
+  }
+  .subImg {
+    margin: auto;
+  }
 }

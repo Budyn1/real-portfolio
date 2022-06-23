@@ -18,3 +18,9 @@
   text-align: center;
   font-size: 48px;
 }
+
+@media only screen and (max-width: 800px) {
+  .skillsPage {
+    margin-bottom: 100px;
+  }
+}
