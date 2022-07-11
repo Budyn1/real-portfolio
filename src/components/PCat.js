@@ -1,7 +1,7 @@
 import React from 'react';
 import './PCatCSS.css'
 import { useEffect } from 'react'
-
+import Carousel from "./carousel.js"
 
 const PCat = (props) => {
 

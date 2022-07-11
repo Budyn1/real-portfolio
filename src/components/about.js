@@ -33,7 +33,7 @@ const About = ({}) => {
             magic for me
               <div className="subImg"><img src={pic}/></div>
             </div>
-            <div className="subItem2">I spend my free time polishing my driving skills, and building my car for drift competition.
+            <div className="subItem2">I spend my free time polishing my driving skills, and building my car.
               <div className="subImg"><img src={pic2}/></div>
             </div>
           </div>
