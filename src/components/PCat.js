@@ -24,7 +24,7 @@ const PCat = (props) => {
         </div>
         <div className="pCpage">
           <div className="imgCon">
-            <img src={props.pic} />
+            <Carousel />
             <div className="projectsLinks">
               <button>GITHUB</button>
               <button>DEMO</button>

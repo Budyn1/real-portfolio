@@ -5,18 +5,28 @@ import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from "react-icons/fa"
 const Carousel = ({}) => {
 
   const [current, setCurrent] = useState(0)
+  let CARDATA = [{image:"/about page design.jpg"}, {image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH0iBWMuRm_LC6a4AmJNvS6CLALq10n8Vcpw&usqp=CAU"}, {image:"https://a.allegroimg.com/s1024/0c239a/3690acd343a7b3d02b39ea006f4b"}]
   const length = CARDATA.length
-  let CARDATA = [{image:"ph"}, {image:"ph"}, {image:'ph'}]
 
+  const next = () => {
+    setCurrent(current === length -1 ? 0 : current+1)
+  }
+
+  const previous = () => {
+    setCurrent(current === 0 ? length - 1 : current-1)
+  }
 
   return (
     <section>
-    <FaArrowAltCircleLeft/>
+    <FaArrowAltCircleLeft onClick={previous}/>
     {CARDATA.map((img, index)=>{
-        return <img src={img.image} alt="obrazek" />
-    })}
-    <FaArrowAltCircleRight/>
-    <section/>
+        return(
+        <div className={index === current ? 'active' : 'carDefault'} key={index}>
+          {index === current && (<img src={img.image} alt="obrazek"/>)}
+        </div>
+    )})}
+    <FaArrowAltCircleRight onClick={next}/>
+    </section>
   );
 }
 
