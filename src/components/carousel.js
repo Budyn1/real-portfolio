@@ -1,6 +1,7 @@
 import React from 'react';
 import {useState} from 'react'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from "react-icons/fa"
+import "../App.css"
 
 const Carousel = ({}) => {
 
@@ -17,16 +18,16 @@ const Carousel = ({}) => {
   }
 
   return (
-    <section>
-    <FaArrowAltCircleLeft onClick={previous}/>
+    <div className="karuzela">
+    <FaArrowAltCircleLeft onClick={previous} className="arrow previous" size={40}/>
     {CARDATA.map((img, index)=>{
         return(
         <div className={index === current ? 'active' : 'carDefault'} key={index}>
           {index === current && (<img src={img.image} alt="obrazek"/>)}
         </div>
     )})}
-    <FaArrowAltCircleRight onClick={next}/>
-    </section>
+    <FaArrowAltCircleRight onClick={next} className="arrow next" size={40}/>
+    </div>
   );
 }
 

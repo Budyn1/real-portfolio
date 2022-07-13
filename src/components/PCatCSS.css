@@ -48,6 +48,14 @@
   justify-content: flex-end;
   align-items: center;
   font-size: 24px;
+  max-width: 50%;
+}
+
+.techCon {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .pCI {
@@ -69,13 +77,14 @@
 .imgCon {
   min-width: 50%;
   display: flex;
-  justify-content: center;
   padding-top: 30px;
   flex-direction: column;
+  max-width: 400px;
+  max-height: 400px;
+  align-items: center;
 }
 
 .imgCon img {
-  width: 100%;
   object-fit: cover;
 }
 
@@ -110,6 +119,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  max-width: 50%;
 }
 
 .para {

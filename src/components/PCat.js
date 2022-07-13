@@ -11,14 +11,16 @@ const PCat = (props) => {
     <div className="barCon" id="projects">
       <div className="bar">
         <div className="title">
-          <p className="text">EVE ONLINE PROJECT</p>
+          <p className="text">React Router Webpage</p>
           <div className="tech">
             <p>TECHSTACK:</p>
-            <div>
+            <div className="techCon">
               {props.js}
               {props.react}
               {props.html}
               {props.css}
+              {props.router}
+              {props.bs}
             </div>
           </div>
         </div>
@@ -30,7 +32,7 @@ const PCat = (props) => {
               <button>DEMO</button>
             </div>
           </div>
-          <div className="textCon"><p className="para">dwadawfrsffgrtfdggwr ssfghdrjg hsrlfg khisofg khrkgjr ghsdf kld fhrgl kitdre tg yhu kgd rkhtg k, xdh grdk,ietgh d kg, jdrh tlig dhg lkdi</p></div>
+          <div className="textCon"><p className="para">I made this project, to deepen my knowledhge about router, and to learn Bootstrap. <br/>I liked the most easeness of making website with BS5. <br/> Webpage contains simple form, landing page, pricing etc.</p></div>
         </div>
       </div>
     </div>
