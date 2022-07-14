@@ -10,11 +10,11 @@ const Carousel = ({}) => {
   const length = CARDATA.length
 
   const next = () => {
-    setCurrent(current === length -1 ? 0 : current+1)
+    setCurrent(current === length - 1 ? 0 : current+1)
   }
 
   const previous = () => {
-    setCurrent(current === 0 ? length - 1 : current-1)
+    setCurrent(current === 0 ? length -1 : current-1)
   }
 
   return (

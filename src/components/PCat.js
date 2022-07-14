@@ -11,7 +11,7 @@ const PCat = (props) => {
     <div className="barCon" id="projects">
       <div className="bar">
         <div className="title">
-          <p className="text">React Router Webpage</p>
+          <p className="text">REACT ROUTER PROJECT</p>
           <div className="tech">
             <p>TECHSTACK:</p>
             <div className="techCon">
