@@ -24,7 +24,7 @@
 .title {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   width: 70%;
   margin-top: 12px;
 }
@@ -60,7 +60,7 @@
 }
 
 .pCI {
-  margin: 12px;
+  margin: 18px;
 }
 
 .tech {
@@ -90,7 +90,7 @@
 }
 
 .projectsLinks {
-  width: 100%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -98,33 +98,34 @@
 }
 
 .projectsLinks button {
-  border-color: rgba(255,0,0,0.7);
-  background-color: transparent;
-  border-width: 2px;
-  color: rgba(255, 0, 0,0.7);
+  border-color: white;
+  background-color: white;
+  border-width: 0px;
+  color: black;
   width: 120px;
   height: 40px;
   border-radius: 2px;
+  font-weight: bold;
 }
 
 .projectsLinks button:hover {
-  border-color: white;
-  color: white;
   cursor: pointer;
+  background-color: rgba(255,255,255,0.6)
 }
 
 
 .textCon {
   padding: 50px 40px 50px 40px;
   font-size: 22px;
-  text-align: center;
+  text-align: ;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   max-width: 50%;
+  flex-direction: column;
 }
 
 .para {
-  text-align: center;
+  text-align:;
   width: 80%;
   word-wrap: normal;
   font-size: 26px;
@@ -144,6 +145,16 @@
   justify-content: center;
   align-items: center;
   animation: popup-ani 5s
+}
+
+@media only screen and (max-width: 750px) {
+  .popup {
+    animation: none;
+    bottom: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 40px;
+  }
 }
 
 @keyframes popup-ani {
