@@ -7,7 +7,7 @@ unfortunatly it isnt hosted beacuse of technical difficulties i've encountered w
 this project showed me how to work with designers, and how to translate they work to working website
 
 # contents 
- my skills
+ my skills <br/>
  my projects 
  my introduction
  contact info
