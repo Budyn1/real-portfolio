@@ -1,11 +1,17 @@
 import React from 'react';
 import './PCatCSS.css'
-import { useEffect } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import Carousel from "./carousel.js"
 
 const PCat = (props) => {
 
+let [demoShow, setDemoShow] = useState(false)
 
+let demoHandler = () => {
+  setDemoShow(!demoShow)
+}
+
+setTimeout(()=>{setDemoShow(false)}, 5000)
 
   return (
     <div className="barCon" id="projects">
@@ -28,8 +34,9 @@ const PCat = (props) => {
           <div className="imgCon">
             <Carousel />
             <div className="projectsLinks">
-              <button>GITHUB</button>
-              <button>DEMO</button>
+              <a href="https://github.com/Budyn1/clutchGH" target="_blank"><button>GITHUB</button></a>
+              <button onClick={demoHandler}>DEMO</button>
+              {demoShow === true ? <div className="popup">Sorry, site hasn't been hosted yet</div> : ""}
             </div>
           </div>
           <div className="textCon"><p className="para">I made this project, to deepen my knowledhge about router, and to learn Bootstrap. <br/>I liked the most easeness of making website with BS5. <br/> Webpage contains simple form, landing page, pricing etc.</p></div>

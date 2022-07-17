@@ -130,6 +130,29 @@
   font-size: 26px;
 }
 
+.popup {
+  position: fixed;
+  width: 300px;
+  height: 60px;
+  bottom: 30px;
+  right: 50px;
+  background-color: rgba(255,255,255, 0.8);
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: popup-ani 5s
+}
+
+@keyframes popup-ani {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(-10deg);}
+  50% {transform: rotate(0deg);}
+  100% {transform: translate(400px, 0px);}
+}
+
 @media only screen and (max-width: 1300px) {
   .title {
     width: 90%;
