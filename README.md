@@ -11,3 +11,13 @@ this project showed me how to work with designers, and how to translate they wor
  my projects <br/>
  my introduction <br/>
  contact info<br/>
+
+# tech used 
+
+ HTMML5
+ 
+ CSS
+ 
+ JS
+ 
+ REACT.JS
