@@ -8,6 +8,6 @@ this project showed me how to work with designers, and how to translate they wor
 
 # contents 
  my skills <br/>
- my projects 
- my introduction
- contact info
+ my projects <br/>
+ my introduction <br/>
+ contact info<br/>
