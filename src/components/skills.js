@@ -13,7 +13,7 @@ const Skills = (props) => (
       <Skill sk= <FaBootstrap color={"#8700FF"} size={props.display > 760 ? 90 : 45} />/>
       <Skill sk= <SiJavascript color={"yellow"} size={props.display > 760 ? 90 : 45} />/>
       <Skill sk= <FaReact color={"aqua"} size={props.display > 760 ? 90 : 45} />/>
-      <Skill sk= <SiRedux color={"purple"} size={props.display > 760 ? 90 : 45} />/>
+      {/*<Skill sk= <SiRedux color={"purple"} size={props.display > 760 ? 90 : 45} />/>*/}
       <Skill sk= <SiReactrouter color={"white"} size={props.display > 760 ? 90 : 45} />/>
       <Skill sk= <SiTailwindcss color={"aqua"} size={props.display > 760 ? 90 : 45} />/>
       <Skill sk= <FaSass color={"pink"} size={props.display > 760 ? 90 : 45} />/>
